@@ -7,7 +7,7 @@ The following Gantt chart illustrates our planned project timeline from initial 
   [
     #set par(leading: 0.5em)
 
-    #import "@preview/timeliney:0.3.0"
+    #import "@preview/timeliney:0.4.0"
     #timeliney.timeline(
       show-grid: true,
       {
