@@ -18,4 +18,4 @@ This repository contains templates for different use cases. Please refer to thei
 
 |        |        |        |
 | :----: | :----: | :----: |
-| ![1](images/letter-of-approval.png) | ![2](images/coverpage.png) | ![3](images/titlepage.png) | 
+| ![1](images/coverpage.png) | ![2](images/titlepage.png) | ![3](images/letter-of-approval.png) | 
