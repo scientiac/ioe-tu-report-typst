@@ -1,10 +1,17 @@
 #import "letterpad.typ": letterpad
 
+// This function generates the official letterhead design at the top of the page.
+// You can customize the specific college and department names by changing the arguments below.
 #letterpad(
+  // The name of your campus in Nepali
   campus-nepali: "पूर्वाञ्चल क्याम्पस",
+  // The name of your campus in English
   campus-english: "Eastern Region Campus",
+  // Department name in Nepali
   department-nepali: "इलेक्ट्रोनिक्स तथा कम्प्युटर विभाग",
+  // Department name in English
   department-english: "Department of Electronics & Computer Engineering",
+  // Short/abbreviated form of campus name in Nepali
   campus-short-nepali: "पू.क्या.फा.नं."
 )[
 

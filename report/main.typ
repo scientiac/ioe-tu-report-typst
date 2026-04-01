@@ -1,21 +1,34 @@
 #import "lib/lib.typ": *
 
+// This block configures the main information of your report.
+// These variables will be used automatically in the cover page and title page.
 #show: project.with(
+  // The name of your campus (e.g., Purwanchal Campus)
   campus: [Somethinganchal Campus],
+  // Title prefix or report type (e.g., A Major Project Progress Report On)
   type: [A Major Project Progress Report On],
+  // The main title of your project/report
   title: [Implementing A Super Cool Project using All the Knowledge I have Acquired.],
+  // List of authors and their roll numbers
   by: (
     [Example Karki (PUR000BCT000)],
     [Example Khanal (PUR000BCT000)],
     [Example Guragain (PUR000BCT000)],
     [Example Subedi (PUR000BCT000)]
   ),
+  // The name and designation of your supervisor
   supervisor: [Asst. Prof. Example Guragai],
+  // Your department's full name
   department: [Department of Something and Something Engineering],
+  // Faculty specialization (e.g., Computer, Civil, Mechanical)
   faculty: [Computer],
+  // The location of your campus
   address: [City, Nepal],
+  // The date to display on the cover/title page
   date: [March, 2026],
+  // Set to true to include the cover page in the final PDF
   show-coverpage: true,
+  // Set to true to include the inner title page in the final PDF
   show-titlepage: true,
 )
 
