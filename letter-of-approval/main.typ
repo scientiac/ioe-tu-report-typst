@@ -1,6 +1,12 @@
 #import "letterpad.typ": letterpad
 
-#letterpad()[
+#letterpad(
+  campus-nepali: "पूर्वाञ्चल क्याम्पस",
+  campus-english: "Eastern Region Campus",
+  department-nepali: "इलेक्ट्रोनिक्स तथा कम्प्युटर विभाग",
+  department-english: "Department of Electronics & Computer Engineering",
+  campus-short-nepali: "पू.क्या.फा.नं."
+)[
 
   // Title
   #align(center)[
@@ -9,11 +15,7 @@
 
   #v(20pt)
 
-  // REMOVE THIS NOTICE
-  #text(red, 10pt)[
-    REMOVE THIS NOTICE:
-    This is template is made for Purwanchal Campus, edit `letterpad.typ` to match your campus's letterpad.
-  ]
+
 
   // Approval text
   #set par(justify: true)

@@ -1,6 +1,11 @@
 // letterpad.typ - Tribhuvan University IOE Letter of Approval Letterhead Template
 
 #let letterpad(
+  campus-nepali: "पूर्वाञ्चल क्याम्पस",
+  campus-english: "Eastern Region Campus",
+  department-nepali: "इलेक्ट्रोनिक्स तथा कम्प्युटर विभाग",
+  department-english: "Department of Electronics & Computer Engineering",
+  campus-short-nepali: "पू.क्या.फा.नं.",
   body
 ) = {
   // Page setup
@@ -32,10 +37,10 @@
         #text(font: "Libertinus Serif", 12pt, weight: "bold", fill: navy)[Tribhuvan University] \
         #text(font: "Noto Sans Devanagari", 10pt, fill: navy)[इन्जिनियरिङ अध्ययन संस्थान] \
         #text(font: "Libertinus Serif", 11pt, weight: "bold", fill: navy)[Institute of Engineering] \
-        #text(font: "Noto Sans Devanagari", 10pt, fill: navy)[पूर्वाञ्चल क्याम्पस] \
-        #text(font: "Libertinus Serif", 11pt, weight: "bold", fill: navy)[Eastern Region Campus] \
-        #text(font: "Noto Sans Devanagari", 14pt, weight: "bold", fill: dept-blue)[इलेक्ट्रोनिक्स तथा कम्प्युटर विभाग] \
-        #text(font: "Libertinus Serif", 13pt, weight: "bold", fill: dept-blue)[Department of Electronics & Computer Engineering]
+        #text(font: "Noto Sans Devanagari", 10pt, fill: navy)[#campus-nepali] \
+        #text(font: "Libertinus Serif", 11pt, weight: "bold", fill: navy)[#campus-english] \
+        #text(font: "Noto Sans Devanagari", 14pt, weight: "bold", fill: dept-blue)[#department-nepali] \
+        #text(font: "Libertinus Serif", 13pt, weight: "bold", fill: dept-blue)[#department-english]
       ],
     )
   }
@@ -50,7 +55,7 @@
     align: (left, right),
     [
       #set text(font: "Noto Sans Devanagari", size: 10pt)
-      पू.क्या.फा.नं. (#h(15pt)) च. न
+      #campus-short-nepali (#h(15pt)) च. न
     ],
     []
   )
