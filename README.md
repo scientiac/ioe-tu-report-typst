@@ -1,2 +1,16 @@
-# IOE,TU Reports in Typst
-A typst (better than latex) template for making report and related documents for students of IOE, TU.
+# IOE, TU Reports in Typst
+
+A Typst template for making reports and related documents for students of IOE, TU.
+
+## Prerequisites
+
+Before using these templates, you need to install the following on your computer:
+* Typst
+* Times New Roman font
+* Zathura PDF reader (recommended for continuous live updates)
+
+## Templates Included
+
+This repository contains templates for different use cases. Please refer to their respective guides for usage instructions:
+* [Report Template](./report/README.md) - For standard project and academic reports
+* [Letter of Approval Template](./letter-of-approval/README.md) - For official approval letters
