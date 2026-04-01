@@ -1,2 +1,2 @@
-# ioe-tu-report-typst
+# IOE,TU Reports in Typst
 A typst (better than latex) template for making report and related documents for students of IOE, TU.
