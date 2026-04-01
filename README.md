@@ -14,3 +14,8 @@ Before using these templates, you need to install the following on your computer
 This repository contains templates for different use cases. Please refer to their respective guides for usage instructions:
 * [Report Template](./report/README.md) - For standard project and academic reports
 * [Letter of Approval Template](./letter-of-approval/README.md) - For official approval letters
+
+
+|        |        |        |
+| :----: | :----: | :----: |
+| ![1](images/letter-of-approval.png) | ![2](images/coverpage.png) | ![3](images/titlepage.png) | 
