@@ -29,4 +29,4 @@ The `main.typ` file begins with a `#show: project.with(...)` block. This is wher
 
 |        |        |
 | :----: | :----: |
-| ![1](images/coverpage.png) | ![2](images/titlepage.png) |
+| ![1](../images/coverpage.png) | ![2](../images/titlepage.png) |

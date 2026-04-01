@@ -21,4 +21,4 @@ The `main.typ` document wraps your content in a `#letterpad(...)` function that 
 * **`department-english`**: The name of your engineering department in English.
 * **`campus-short-nepali`**: A short abbreviation of your campus name in Devanagari script, used for official numbering reference.
 
-![loa](images/letter-of-approval.png)
+![loa](../images/letter-of-approval.png)
