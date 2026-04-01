@@ -27,6 +27,6 @@ The `main.typ` file begins with a `#show: project.with(...)` block. This is wher
 * **`date`**: Submission date shown on the title pages.
 * **`show-coverpage` & `show-titlepage`**: Set these to `true` or `false` depending on whether you want these pages generated in your final document.
 
-|        |        |
+| Cover Page | Title Page |
 | :----: | :----: |
 | ![1](../images/coverpage.png) | ![2](../images/titlepage.png) |

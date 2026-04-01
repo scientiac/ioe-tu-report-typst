@@ -16,6 +16,6 @@ This repository contains templates for different use cases. Please refer to thei
 * [Letter of Approval Template](./letter-of-approval) - For official approval letters
 
 
-|        |        |        |
+| Cover Pge | Title Page | LoA |
 | :----: | :----: | :----: |
 | ![1](images/coverpage.png) | ![2](images/titlepage.png) | ![3](images/letter-of-approval.png) | 
