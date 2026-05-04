@@ -19,3 +19,7 @@ This repository contains templates for different use cases. Please refer to thei
 | Cover Page | Title Page | LoA |
 | :----: | :----: | :----: |
 | ![1](images/coverpage.png) | ![2](images/titlepage.png) | ![3](images/letter-of-approval.png) | 
+
+## Fonts
+
+Times New Roman isn't open source and is a proprietary font belonging to Microsoft.
